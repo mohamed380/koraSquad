@@ -1,0 +1,944 @@
+.tagSettingSection{
+    margin:10px;
+}
+
+.tagSettingSection .dropdown{
+    margin:5px 5px;
+}
+.postContent .post-title{
+    text-decoration: none;
+}
+.postContent .post-title:hover{
+    text-decoration: none;
+    color: #4286af;
+}
+.latest-video-widget .postContent .post-title{
+    color: #e2a55d;
+    text-decoration: none;
+}
+.latest-video-widget .postContent .post-title:hover{
+    color: #d69b57;
+    text-decoration: none;
+}
+.fa-play{
+    position: absolute;
+    left: 46%;
+    top: 40%;
+}
+
+textarea, input {
+    text-align: right;
+}
+.Right{
+    float: right;
+}
+a{
+    text-align: right;
+}
+.touch .post-tags{
+    border-top: none;
+    border-bottom: none;
+}
+
+.matches .row{
+    margin-left: 15px;
+        padding: 0px 20px 0px 0px;
+    background: rgb(0,0,0,.6);
+    border: 1px solid #787878;
+    position: relative;
+    
+}
+option{
+    text-align: right;
+}
+.detail i{
+    margin-left: 6px;
+}
+.matchesDiv{
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.match .detail{
+    margin-left: 10px;
+    
+}
+.match .detail h5, .detail h6 , .detail p{
+    text-align: center;
+    color: white;
+}
+.match .comp{
+    min-width: 100px;
+    max-width:155px;
+}
+.comp p {
+    margin-bottom: 0px;
+    font-size: 11px;
+}
+{
+ background-color: darkgoldenrod;
+    width: 80%;
+    margin-left: 15px;
+}
+.fc , .sc{
+        display:  inline-flex;
+       flex-direction: column;
+        align-items: center;
+        margin-top: 27px;
+        margin-left: 20px;
+        align-items: center;
+        font-size: 10px;
+        max-width: 100px;
+        min-width: 70px;
+}
+.sc{
+    margin-left: 0px;
+    margin-right: 10px;
+}
+.sc img{
+    margin-left: 5px;
+}
+.match{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    max-height: 96px;
+    max-width: 395px;
+    min-width: 298px;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+
+.matches{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    direction: rtl;
+    padding: 0px;
+    background: rgb(0,0,0,.5);
+}
+.fc p, .sc p{
+        margin-bottom: 0px;
+}
+.matches img{
+        width: 25px;
+        height: 25px;
+        position: relative;
+    }
+.carousel{
+    width: 100%
+}
+.carousel a i{
+    color: #eeb300;
+}
+.dates .carousel-control-next {
+
+}
+.dates .carousel-control-prev {
+ 
+}
+.nav-tabs a{
+    color: #eeb300;
+}
+#myTab{
+    margin-bottom: px;
+    border-bottom: 0;
+}
+.margin-bottom{
+    margin-bottom: 30px;
+}
+.matchesAlert{
+    height: 38;
+    padding-top: 10px;
+}
+.mvideo{
+    height: 87%
+}
+.imgslid img{
+    height: 73.33px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .mvideo{
+    height: 87%
+}
+    .section-heading h4{
+        font-size: larger;
+    }
+}
+.hide-tags{
+    display: none;
+}
+@media only screen and (max-width: 991px) {
+    .matches{
+        justify-content:;
+    }
+    .hide-tags{
+        display: flex;
+    }
+}
+@media only screen and (min-width: 575px) {
+    .PostcontentDiv .post-title{
+       font-size: 13px;
+    }
+   
+}
+
+
+#myTab .nav-link.active{
+    color: #476f88;
+    
+}
+.single-widget{
+ padding-bottom: 10px;
+ padding-top: :10px
+}
+.CompMatch .match ul li{
+    text-align: center;
+}
+.ahly .top-header-area .top-social-info  a{
+    color: white;
+}
+.ahly .top-header-area .breaking-news-area .ticker ul li a ,.ahly .video-title{
+    color: white;
+}
+.ahly .top-header-area .top-social-info  a:hover{
+    color: #e2a55d;
+}
+.ahly .top-header-area .top-search-area form input{
+    background :rgb(44,44,44,.7);
+}
+
+.ahly .post-content .post-title , .ahly .postContent .post-title{
+    color:white;
+}
+.ahly .post-content .post-title:hover ,.ahly .postContent .post-title:hover{
+    color:#e2a55d;
+}
+
+.zamalek .top-header-area .breaking-news-area .ticker ul li a{
+    color: black;
+}
+.ismaily .top-header-area .breaking-news-area .ticker ul li a{
+    color:#2121B1;
+}
+.ismaily .matchesDiv a{
+    color:#2121B1;
+}
+.ismaily .matchesDiv .matchesAlert h2,.ismaily .postContent .post-title,.ismaily .postContent .video-title{
+    color:#2121B1;
+}
+.masry .matchesDiv .matchesAlert h2,.ittihad .matchesDiv .matchesAlert h2{
+    color:#016701;
+}
+.masry .matchesDiv a,.ittihad .matchesDiv a{
+    color:#016701;
+}
+.masry  .postContent .post-title,.ittihad  .postContent .post-title,.ittihad  .postContent .video-title,.masry  .postContent .video-title{
+    color:white;
+}
+.masry  .postContent .post-title:hover,.ittihad  .postContent .post-title:hover,.ittihad  .postContent .video-title:hover,.masry  .postContent .video-title:hover{
+    color:#016701;
+}
+.zamalek  .postContent .post-title,.zamalek  .postContent .video-title{
+    color:black;
+}
+.zamalek  .postContent .post-title:hover,.zamalek  .postContent .video-title:hover{
+    color:red;
+}
+.MorePostsbntDiv{
+        float: right;
+        padding: 0px;
+        margin: 0px;
+}
+.ahly .top-header-area .breaking-news-area .news-title p{
+    color:white;
+}
+body{
+            background: url('http://127.0.0.1:8000/public/core/backgrounds/ahly.jpg');
+
+}
+.edited-nav{
+    white-space: nowrap;
+    overflow: auto;
+}
+.edited-nav .nav-link{
+    padding: 10px
+}
+@media (min-width: 992px){
+    .edited-nav{
+            margin-right: 24%;
+        }
+}
+@media only screen and (max-width: 991px )and (min-width:766px){
+    .edited-nav{
+             position: relative;
+            left: 173px;
+        }
+}
+.ahly .postText,.zamalek .postText, .masry .postText, .ismaily .postText , .ittihad .postText{
+    color: white;
+    background: rgb(0,0,0,.5);
+}
+
+.ahly .matchesAlert h2,.zamalek .matchesAlert h2,.ahly .post-date, .zamalek .post-date,.ismaily .post-date,.ittihad .post-date , .masry .post-date, .ismaily .matchesAlert h2,.ittihad .matchesAlert h2,.masry .matchesAlert h2{
+    color: white;
+    background: rgb(0,0,0,.6);
+    border-radius: 51px;
+    padding: 0px 20px;
+    
+}
+    
+body{
+        background-image: url('http://korasquad.com/core/backgrounds/background.jpg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    background-position-y:top;
+}
+.ahly{
+           background-image:  linear-gradient(rgb(0,0,0,.4),rgb(0,0,0,.4)),url('http://korasquad.com/core/backgrounds/ahly.jpg');
+}
+
+.zamalek{
+           background-image:  linear-gradient(rgb(255,255,255,.4),rgb(255,255,255,.4)),url('http://korasquad.com/core/backgrounds/zamalek.jpg');
+}
+.ismaily{
+           background-image: linear-gradient(rgb(252, 255, 119,.4),rgb(252, 255, 119,.4)),url('http://korasquad.com/core/backgrounds/ismaily.jpg');
+}
+.ittihad{
+             background-image: linear-gradient(rgb(21, 211, 0,.4),rgb(21, 211, 0,.4)),url('http://korasquad.com/core/backgrounds/ittehad.jpg');
+}
+.masry{
+           background-image: linear-gradient(rgb(21, 211, 0,.4),rgb(21, 211, 0,.4)),url('http://korasquad.com/core/backgrounds/masry.jpg');
+}
+@media only screen and (max-width : 770px){
+    body{
+        background-size:120% 850px;
+        background-position-y:top; 
+    }
+
+    .ahly{
+       background-image: linear-gradient(rgb(0,0,0,.4),rgb(0,0,0,.4)),url('http://korasquad.com/core/backgrounds/ahlymob.jpg'); 
+        
+    }
+    .zamalek{
+       background-image: linear-gradient(rgb(255,255,255,.4),rgb(255,255,255,.4)),url('http://korasquad.com/core/backgrounds/zamalekmob.jpg');
+        
+    }  
+    .ismaily{
+       background-image: linear-gradient(rgb(252, 255, 119,.4),rgb(252, 255, 119,.4)),url('http://korasquad.com/core/backgrounds/ismailymob.jpg');
+    }    
+    .ittihad{
+       background-image: linear-gradient(rgb(21, 211, 0,.4),rgb(21, 211, 0,.4)),url('http://korasquad.com/core/backgrounds/ittehadmob.jpg');
+    }    
+    .masry{
+       background-image: linear-gradient(rgb(21, 211, 0,.4),rgb(21, 211, 0,.4)),url('http://korasquad.com/core/backgrounds/masrymob.jpg');
+    }
+    
+
+}
+
+
+   
+.matchesAlert{
+    height: 38;
+    padding-top: 10px;
+}
+
+.matchesAlert .col-12{
+    
+    background: rgb(0,0,0,0.8);
+}
+.MatchesdatesRow .nav-item{
+    float: right;
+}
+.MatchesdatesRow .nav-item a{
+    text-align: center;
+}
+.matchesAlert h2{
+    margin-top: 20px;
+    text-align: center;
+    color: #e2a55d;
+    justify-content: center;
+}
+.CompMatch .clubImg{
+    
+    margin-right: 10px;
+    margin-left: 10px;
+   
+    height: 34px;
+}
+.CompMatch .clubName{
+   float: left;
+}
+
+.CompMatch .match .col-3 , .CompMatch .match .col-5{
+    padding: 0px;
+   
+}
+.CompMatch .match .col-3{
+    height: 75px;
+     display: flex;
+    padding:45px;
+}
+
+.dates{
+    margin-bottom: 20px;
+}
+.dates-matches{
+    text-align: right;
+}
+.M-competition p{
+    color: black;
+}
+.M-competition .CompName {
+display: flex;
+flex-direction: row-reverse;
+align-items: center;
+}
+.fa-search{
+    margin-left: 10px;
+    padding-top: 6px;
+}
+.M-competition .CompName  img{
+    float: right;
+    width: 13%;
+    margin-left: 15px;
+}
+.section-heading{
+    margin-top:15px;
+}
+.CompNameOrder{
+    text-align: right;
+}
+.dates .carousel-control-prev , .dates .carousel-control-next{
+    background: rgb(0,0,0,.3);
+    width:9%;
+}
+.CompNav{
+}
+.admin-content{
+    margin-top: 75px;
+}
+.searchnav{
+    margin-top: 20px;
+}
+.match .l, .match .r{
+    justify-content: center;
+}
+.match .l a , .match .r a{
+    text-decoration: none;
+    color: black;
+    display: -webkit-box;
+    
+}
+.match .l a{
+    flex-direction: row-reverse;
+}
+
+.match .l a:hover, .match .r a:hover{
+        cursor:default;
+}
+.M-competition p {
+    text-align: center;
+}
+.M-competition{
+    border-bottom: 1px solid black;
+}
+.nav-brand img{
+        
+    position: relative;
+    top: 1px;
+    right: 2px;
+}
+.stags{
+    list-style: none;
+    
+}
+.stags .post-cata{
+    font-size: 20px;
+    border-radius: 6px;
+}
+.videoDetails{
+    padding-top: 30px;
+}
+.searchresults{
+    margin-top: 20px;
+}
+.fa-play{
+    position: absolute;
+    top: 40%;
+    left:47%;
+    color:rgb(71,111,136,.8);
+}
+.postContent{
+    text-align: right;
+    margin: 5px 0px 5px 0px;
+}
+.postContent a{
+    color: #e2a55d;
+    text-align: right;
+}
+.postContent a:hover{
+    text-decoration: none;
+}
+.navbar .navbar-brand:hover{
+    font-size: 20px;
+}
+tr , td {
+    text-align: center;
+}
+tr img{
+    width: 36px;
+    height: 36px;
+}
+td input{
+    text-align: center;
+    width: 80%;
+}
+@media only screen and (max-width:414px){
+    .comp  .compName{
+        display: none;
+    }
+    .comp p {
+        font-size:11px; 
+    }
+    .fc, .sc{
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .fc .clubImg, .sc .clubImg{
+        width: 20px;
+        height: 20px;
+        
+    }
+}
+    .fc .clubName, .sc .clubName{
+        
+        color:white;
+    }
+.clubNameOrder{
+    text-align: right;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+.clubNameOrder img{
+    margin-left: 10px;
+}
+@media only screen and (max-width: 991px) and(min-width:391px)  {
+    .col-9 .nav-item{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .nav-brand img{
+        
+        position: relative;
+        right: -23px;
+        }
+   .CompMatch .match ul {
+        
+        height: 45px;
+    }
+  .CompMatch .match ul li{
+       
+        margin-left: 8px;
+    
+      
+    }
+    .matches .row{
+        width: 100%;
+        
+    } 
+
+    .more-bnt-row{
+        margin-top: 14px;
+    }   
+} 
+.right-remove, .left-remove{
+    margin-top: 20px;
+}
+@media (max-width: 991.98px){
+    .right-remove{
+        display: none;
+    }
+
+      .vizew-pager-area{
+        display: none;
+    }
+            .MatchesdatesRow .nav-item a{
+            font-size: 8px;
+        }
+        .MatchesdatesRow .nav-item{
+            padding: 0px;
+        }
+        .M-competition .CompName h2{
+            font-size: 18px;
+        } 
+        .CompMatches .match span{
+        font-size: 10px;
+        }
+    .CompMatches .match .clubImg{
+        width: 20px;
+        height: 20px;
+    }
+
+}
+@media ( max-width : 450px){
+   .CompMatch .match .l a ,.CompMatch .match .r a{
+        display: contents;
+    }
+   .CompMatch .match .col-3{
+        height: inherit;
+        padding-top: 8%;
+    }
+    .CompMatches .match .sc, .CompMatches .match .fc{
+        min-width: inherit;
+    }
+    
+}
+.m-result{
+    border: 1px solid #eeb300;
+    border-radius: 15px;
+}
+.m-result b{
+    padding: 0px 10px;
+}
+.m-time{
+    line-height: 9px;
+    margin-bottom: 3px;
+}
+@media (max-width: 767.98px){
+   .ndSecRow{
+        flex-direction: column-reverse!important
+    }
+    .ndSecRow .followers-widget iframe{
+        width: -webkit-fill-available;;
+    }
+        .nav-brand img{
+        width: 80%;
+        position: relative;
+        right: 20px;
+        }
+     .right-remove{
+        display: none;
+    }
+    .main-4sm .row:first-child{
+        margin-top: 6px;
+}
+        table tbody tr td:not(:first-child):not(:last-child):not(:nth-child(9)):not(:nth-child(10)),table thead tr th:not(:first-child):not(:last-child):not(:nth-child(9)):not(:nth-child(10)){
+        display: none;
+    }
+}
+
+pre{
+    color: black;
+    white-space: pre-wrap;
+    word-break: break-word;
+    text-align: initial;
+    font-family: inherit;
+    font-size: large;
+}
+.viewPostTitle pre{
+    font-weight: bold;
+    overflow-y: hidden;
+    display: contents;
+    font-size: inherit;
+}
+.post-title pre{
+    font-weight: bold;
+    overflow-y: hidden;
+    display: contents;
+    font-size: inherit;
+    color: inherit;
+}
+.post-thumbnail img {
+    max-height: 233.33px;
+    width: fit-content;
+}
+.MorebntDiv{
+    margin: 20px;
+}
+.CompMatches .match .sc,.CompMatches .match .fc{
+    max-height: 115px;
+    min-width: 115px;
+}
+.CompMatches .match{
+    max-width:inherit;
+    min-width: inherit;
+    max-height: inherit;
+    min-height: inherit;
+    border: none;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+.CompMatches .match .comp{
+    min-width: 137;
+}
+.CompMatches .match .clubName{
+    
+    color: black;
+}
+.CompMatches .match .clubImg{
+    width: 30px;
+    height: 30px;
+}
+.clubNameOrder p {
+    text-align: center;
+    margin-bottom: 0px;
+    color: black;
+}
+
+@media only screen and (max-width:360px){
+    .CompMatches .match .comp p{
+        font-size: 10px;
+    }
+    .CompMatches .match span{
+    font-size: 10px;
+}
+    .m-result b {
+    padding: 0px 5px;
+}
+}
+@media only screen and (min-width:700px){
+    .matchesDiv .tab-content{
+    display: flex;
+    justify-content: center;
+    }
+}
+
+*{
+    font-family: GE_SS_Unique_Light;
+}
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+     .breakpoint-off .ClubsUl{
+              padding-top: 4%;
+      }}
+
+.table thead th{
+    border-bottom: 0px;
+}
+.table thead th:nth-child(10){
+    text-align: right;
+}
+.table td, .table th {
+    padding: 15px 0px;
+    background: white;
+    vertical-align: auto;
+}
+table tbody tr:first-child td , table tbody tr:first-child th{
+    background-color: #3E444A;
+}
+table tbody tr:first-child td:first-child , table tbody tr:first-child th{
+    color: white;
+    font-weight: 900;
+}
+table tbody tr:first-child td{
+    color: white;
+}
+table tbody tr td:first-child , table tbody tr th{
+    color: black;
+    font-weight: 900;
+}
+ table tbody tr:first-child td p {
+    color: white;
+}
+.footer-area{
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: center;
+}
+.footer-area div{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+.footer-area div p ,.footer-area div a{
+    padding: 0px 5px 0px 5px;
+    text-decoration: none;
+}
+.footer-area div a:hover{
+    text-decoration: none;
+}
+.footer-area .fotter-social{
+    float: left;
+}
+.input-group select,.form-group select{
+    height: auto;
+}
+.fixedAd{
+      position: absolute;
+    width: fit-content;
+    height: fit-content;  
+     z-index: 700;
+}
+.leftAd{
+    left: 0px;
+}
+.rightAd{
+    right: 0px;
+}
+.welUlDiv{
+    padding-right: 0px;
+}
+@media only screen and (max-width:900px){
+    .fixedAd , .hide-ad{
+        display: none;
+    }
+    .welUlDiv{
+      padding-right: 15px;
+    }
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.WelcNewsDiv .style-2{
+    padding-bottom: 10px;
+}
+.WelcNewsDiv .style-2 .row .PostcontentDiv{
+    background: white;
+    height: 105px;
+    align-items: center;
+    display: flex;
+    border: 1px solid #d8d8d8;
+}
+.WelcNewsDiv .style-2 .row .PostcontentDiv .post-title{
+    font-size: 12px;
+}
+.hero--area .WelcNewsDiv .style-2 .row .PostcontentDiv .post-title{
+    font-size: 19px;
+    color: black;
+}
+@media only screen and (max-width: 575px) {
+    .hero--area .WelcNewsDiv .style-2 .row .PostcontentDiv .post-title{
+       font-size: 13px;
+    }
+   
+}
+.WelcNewsDiv .style-2 .row .PostImgDiv{
+    padding-left: 0px;
+    height: 105px;
+}
+.WelcNewsDiv .style-2 .row .PostImgDiv .post-thumbnail{
+    height: 100%;
+}
+.WelcNewsDiv .style-2 .row .PostImgDiv a div img{
+    height: 100%;
+}
+.WelcomeLi .single-blog-post.style-2 .post-content .post-title{
+    font-size: 9px;
+}
+
+.welcUl li{
+    height: 67px;
+    padding: 25px;
+    border: 1px solid black;
+    text-align: right;
+    background: #393c3d;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}         
+.welcUl li:last-child{
+    margin-bottom: 10px;
+}
+.welcUl  a{
+    text-decoration: none;
+    color: white;
+}
+.welcUl  li:hover{
+   background: #575a5b;
+}
+.WelcomeBottomUl{
+    background: #393c3d;
+}
+.WelcomeBottomUl li a:hover{
+    text-decoration: none;
+}
+.WelcomeBottomUl li{
+    border-left: 1px solid black;
+}
+.WelcomeBottomUl li:first-child{
+    border-left: none;
+}
+.WelcomeBottomUl li a h6:hover{
+    color: white;
+}
+.WelcomeBottomUl .post-thumbnail{
+    margin: 15px;
+}
+.main-4sm .container{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+
+.main-4sm .col-6{
+    padding: 0px;
+}
+.main-4sm  .row{
+    margin-bottom: 6px;
+}
+.main-4sm .row .col-6:first-child{
+    padding-right: 1px;
+}
+.main-4sm .row .col-6:last-child{
+    padding: 0px 1px;
+}
+.main-4sm .single-feature-post{
+    height: 160px; 
+}
+.main-4sm .single-feature-post .post-thumbnail{
+    height: 100%
+}
+.main-4sm .single-feature-post .post-thumbnail img{
+    height: 100%;
+    width: 100%;
+}
+.main-4sm .single-feature-post.video-post .post-content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    bottom: 0px;
+    padding: 0px 7px;
+    left: 0px;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 77%, rgba(0, 0, 0, 0.1) 90%, rgba(0, 0, 0, 0) 100%);
+}
+.main-big .bg-img .post-content , .single-feature-post.video-post .post-content{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 77%, rgba(0, 0, 0, 0.1) 90%, rgba(0, 0, 0, 0) 100%);
+    padding: 27px 15px;
+    width: 100%;
+    left: 0px;
+    height: 50%;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bg-img .post-content .row {
+    margin: 0px;
+}
+.main-4sm .single-feature-post .post-content .post-title{
+    font-size:10px;
+}
+.hero--area .row .WelcNewsDiv .single-post-area.style-2{
+    border-bottom: 0px;
+}
+.LeftMainPostsDiv .col-12 .main-big{
+    margin-bottom: 5px;
+}
+.LeftMainPostsDiv .single-feature-post.video-post{
+    height: 214px;
+}
+.LeftMainPostsDiv .col-12 .main-big .single-feature-post.video-post .post-content .post-title{
+    font-size: 16px;
+}
+.LeftMainPostsDiv .main-4sm .single-feature-post{
+    height: 107px
+}
